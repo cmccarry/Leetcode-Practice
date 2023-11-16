@@ -20,9 +20,14 @@ class Solution:
                 result.append(i)
                 return result'''
 
+def main():
+    #example input
+    instance = Solution()
+    nums = [1, 4, 5, 0, 1, 2, 0]
+    target = 0
+    result = instance.twoSum(nums, target)
+    print(result)
 
-instance = Solution()
-nums = [1, 4, 5, 0, 1, 2, 0]
-target = 0
-result = instance.twoSum(nums, target)
-print(result)
+if __name__ == '__main__':
+    main()
+    

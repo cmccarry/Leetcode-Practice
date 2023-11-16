@@ -14,9 +14,13 @@ class Solution:
         
         return True
 
-#example input
-input1 = ('thing')
-input2 = ('night')
-instance = Solution()
-result = instance.isAnagram(input1,input2)
-print(result)
+def main():
+    #example input
+    input1 = ('thing')
+    input2 = ('night')
+    instance = Solution()
+    result = instance.isAnagram(input1,input2)
+    print(result)
+
+if __name__ == '__main__':
+    main()

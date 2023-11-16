@@ -9,8 +9,13 @@ class Solution:
             duplicate.add(num)
         return False
 
-#example input
-nums = [0, 1, 2, 3, 1]
-instance = Solution()
-result = instance.containsDuplicate(nums)
-print(result)
+def main():
+    #example input
+    nums = [0, 1, 2, 3, 1]
+    instance = Solution()
+    result = instance.containsDuplicate(nums)
+    print(result)
+
+if __name__ == '__main__':
+    main()
+    

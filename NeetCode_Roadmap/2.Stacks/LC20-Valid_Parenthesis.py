@@ -14,8 +14,12 @@ class Solution:
                 stack.pop()
         return not stack    # == not bool(stack), returns true if empty
 
-#example input
-string = '(({[]}))'
-instance = Solution()
-result = instance.isValid(string)
-print(result)
+def main():
+    #example input
+    string = '(({[]}))'
+    instance = Solution()
+    result = instance.isValid(string)
+    print(result)
+
+if __name__ == '__main__':
+    main()
