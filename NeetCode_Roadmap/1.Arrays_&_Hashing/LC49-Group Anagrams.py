@@ -10,7 +10,7 @@ class Solution:
         my_dict = dict()
 
         for word in strs:
-            sorted_string = word
+            sorted_string = ''.join(sorted(word))
             if sorted_string not in my_dict:
                 my_dict[sorted_string] = []
             my_dict[sorted_string].append(word)
